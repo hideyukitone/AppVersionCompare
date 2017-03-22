@@ -13,6 +13,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let appId = "1214851797" //AdBuster2のApple ID https://itunes.apple.com/us/app/adbuster2-ad-blocker/id1214851797?l=ja&ls=1&mt=8
+        
+        AppVersionCompare.toAppStoreVersion(appId: appId) { (type) in
+            switch type {
+            case .latest:
+                print("最新バージョンです")
+            case .old:
+                print("旧バージョンです")
+            case .error:
+                print("エラー")
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

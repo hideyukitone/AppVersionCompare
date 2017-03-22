@@ -14,6 +14,7 @@
 		87B6825C1E829AC500387A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B6825A1E829AC500387A8B /* LaunchScreen.storyboard */; };
 		87B682671E829AC500387A8B /* AppVersionCompareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B682661E829AC500387A8B /* AppVersionCompareTests.swift */; };
 		87B682721E829AC500387A8B /* AppVersionCompareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B682711E829AC500387A8B /* AppVersionCompareUITests.swift */; };
+		87B682801E829AEE00387A8B /* AppVersionCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6827F1E829AEE00387A8B /* AppVersionCompare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		87B6826D1E829AC500387A8B /* AppVersionCompareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppVersionCompareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B682711E829AC500387A8B /* AppVersionCompareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersionCompareUITests.swift; sourceTree = "<group>"; };
 		87B682731E829AC500387A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B6827F1E829AEE00387A8B /* AppVersionCompare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppVersionCompare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				87B682581E829AC500387A8B /* Assets.xcassets */,
 				87B6825A1E829AC500387A8B /* LaunchScreen.storyboard */,
 				87B6825D1E829AC500387A8B /* Info.plist */,
+				87B6827F1E829AEE00387A8B /* AppVersionCompare.swift */,
 			);
 			path = AppVersionCompare;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B682801E829AEE00387A8B /* AppVersionCompare.swift in Sources */,
 				87B682541E829AC500387A8B /* ViewController.swift in Sources */,
 				87B682521E829AC500387A8B /* AppDelegate.swift in Sources */,
 			);
